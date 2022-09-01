@@ -1,0 +1,74 @@
+/*========== Global Variables ==========*/
+:root {
+  --main-color: #10cab7;
+  --sec-color: #24484f;
+  --section-back: #f6f6f6;
+  --par-color: #777;
+  --trans-dur: all 0.25s ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.clear {
+  clear: both;
+}
+.contain {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .contain {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .contain {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .contain {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .contain {
+    width: 1170px;
+  }
+}
+
+/*========== Navbar ==========*/
+.navbar {}
+
+/*========== Header ==========*/
+.header {}
+
+/*========== Features ==========*/
+.features {}
+
+/*========== Services ==========*/
+.services {}
+
+/*========== Portfolio ==========*/
+.portfolio {}
+
+/*========== About ==========*/
+.about {}
+
+/*========== Contact ==========*/
+.contact {}
+
+/*========== Footer ==========*/
+.footer{}
